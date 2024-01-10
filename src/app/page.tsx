@@ -1,14 +1,10 @@
-import { ArrowDownToLine, CheckCircle, CircleDollarSignIcon, LeafIcon, LucideIcon } from 'lucide-react'
+import Link from 'next/link'
+import { ArrowDownToLine, CheckCircle, CircleDollarSignIcon, LeafIcon } from 'lucide-react'
 import { Button, buttonVariants } from '@/components/ui/button'
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
-import Link from 'next/link'
+import { Perk } from '@/lib/types'
 
-//TODO: this will be from BE
-type Perk = {
-  name: string;
-  icon: LucideIcon,
-  description: string
-}
+//TODO: this will come from BE
 const perks: Perk[] = [
   {
     name: "Instant Delivery",
