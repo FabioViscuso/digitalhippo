@@ -2,9 +2,10 @@ import Link from "next/link"
 import { Icons } from "@/components/ui/Icons"
 import NavItems from "./NavItems"
 import { buttonVariants } from "./ui/button"
+import Cart from "./Cart"
 
 //
-const user = null
+const user = 1
 //
 
 const Navbar = () => {
@@ -34,9 +35,7 @@ const Navbar = () => {
                         }
                         {
                             user &&
-                            <Link href={'/signin'}>
-                                Cart
-                            </Link>
+                            <Cart />
                         }
                     </div>
                 </div>
