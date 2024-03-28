@@ -39,6 +39,7 @@ const NavItems = () => {
 
                 return (
                     <NavItem
+                        close={() => close()}
                         key={category.value}
                         category={category}
                         handleOpen={handleOpen}
