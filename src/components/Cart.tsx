@@ -1,3 +1,5 @@
+"use client"
+
 import { ShoppingCart } from "lucide-react"
 import { Sheet, SheetContent, SheetFooter, SheetHeader, SheetTitle, SheetTrigger } from "./ui/sheet"
 import { Separator } from "./ui/separator"
